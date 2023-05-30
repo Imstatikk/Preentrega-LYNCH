@@ -1,0 +1,41 @@
+.containerDetailItem{
+    display: inline-flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 30px;
+ margin-left: 150px;
+}
+.containerCardItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 0px;
+    border: none;
+    box-shadow: 0 0 10px 1px #eeeded;
+}
+.sizeImgItem{
+    width: 800px;
+    height: 650px;
+}
+.fontSizeItem{
+    font-size: 30px;
+}
+.fontSizeTwoItem{
+    font-size: 20px;
+}
+
+.detalleButtonItem{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: solid black 7px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.marginFooterItem{
+    margin-top: 470px;
+    margin-left: 15px
+}

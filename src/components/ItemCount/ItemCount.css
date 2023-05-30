@@ -1,0 +1,11 @@
+.containerButtonsCarrito{
+    text-align: center;
+}
+.sizeButton{
+height: 40px;
+width: 60px;
+margin: 10px;}
+.styleCount{
+    display: flex;
+    justify-content: center;
+}

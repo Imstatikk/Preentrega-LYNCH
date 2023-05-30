@@ -1,11 +1,11 @@
 .carritoDiv{
-margin-left: 1800px;
 display: flex;
 flex-direction: row;
 }
 .iconCarrito{
     width: 80px;
     height: 80px;
+    margin-left: 1700px;
 }
 .navBarStyle{
     text-align: center;
@@ -13,15 +13,23 @@ flex-direction: row;
 }
 .ItemListContainerStyle{
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
     font-size: 35px;
 }
 .buttonsNavBar{
- margin: 10px;
+ margin: 40px;
     color: white;
     background-color: black;
+    border-radius: 10px;
+    border: solid black 10px;
+    text-decoration: none;
 }
 .fontTitle{
     font-size: 29px;
+}
+.iconTienda{
+    width: 80px;
+    height: 60px;
+    margin-left: 20px;
 }

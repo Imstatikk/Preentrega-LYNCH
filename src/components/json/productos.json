@@ -1,0 +1,11 @@
+[
+    {"id":"1", "nombre":"Pantalón", "precio": "15000", "categoria": "Pantalones", "img":"https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2022/10/24/7820190.jpg","stock":"10"},
+    {"id":"7", "nombre":"Campera", "precio":"25000", "categoria":"Camperas", "img":"https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2023/3/9/8162956.jpg", "stock":"10"},
+    {"id":"10", "nombre":"Bermuda","precio":"12000", "categoria":"Bermudas", "img":"https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2023/4/12/8258527.jpg","stock":"10" },
+    {"id":"12", "nombre":"Campera2","precio":"30000", "categoria":"Camperas", "img":"https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2023/3/29/8216780.jpg","stock":"10" },
+    {"id":"15", "nombre":"Pantalón2","precio":"11000", "categoria":"Pantalones", "img":"https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2023/5/3/8321459.jpg","stock":"10" },
+    {"id":"18", "nombre":"Bermuda2","precio":"10000", "categoria":"Bermudas", "img":"https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2023/4/12/8259048.jpg","stock":"10" },
+    {"id":"22", "nombre":"Pantalón3","precio":"10000", "categoria":"Pantalones", "img":"https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2022/9/5/7696541.jpg","stock":"10" },
+    {"id":"25", "nombre":"Bermuda3","precio":"10000", "categoria":"Bermudas", "img":"https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2023/4/12/8258618.jpg","stock":"10" },
+    {"id":"28", "nombre":"Campera3","precio":"10000", "categoria":"Camperas", "img":"https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2023/3/8/8158172.jpg ", "stock":"10" }
+ ]

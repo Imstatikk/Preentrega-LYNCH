@@ -1,20 +1,21 @@
 import CartWidget from "../CartWidget/CartWidget"
 import  "../styles.css"
+import { NavLink } from "react-router-dom"
 const NavBar = ()=>{
     return (
         <nav className="navBarStyle">
             <CartWidget></CartWidget>
             <h1 className="fontTitle">TLTS</h1>
             <div>
-        <button className="buttonsNavBar">
+        <NavLink className="buttonsNavBar" to="/category/Pantalones">
         Pantalones
-        </button>
-        <button className="buttonsNavBar">
-        Remeras
-        </button>
-        <button className="buttonsNavBar">
+        </NavLink>
+        <NavLink className="buttonsNavBar" to="/category/Camperas">
         Camperas
-        </button>
+        </NavLink> 
+        <NavLink className="buttonsNavBar" to="/category/Bermudas">
+        Bermudas
+        </NavLink>
             </div>
         </nav>
     )
