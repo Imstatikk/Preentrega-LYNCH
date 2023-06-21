@@ -1,0 +1,35 @@
+.cartContainer{
+    display: flex;
+    border: solid black 1px;
+    margin-top: 50px;
+    margin-left: 100px;
+    height: auto;
+    width:max-content;
+}
+.buttonCloseCart{
+    margin-left: 1550px;
+}
+
+.finalPrice{
+  
+    margin-top :10px;
+    margin-left : 1400px
+}
+.payButton{
+    width: 100px;
+    height: 40px;
+     margin-top :10px;
+     margin-left : 1400px
+ }
+ .productCartContainer{
+    display: flex; 
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    margin-bottom: 50px;   
+ }
+
+ .buttonSize{
+    width: 30px;
+ }

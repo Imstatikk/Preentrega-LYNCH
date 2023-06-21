@@ -1,35 +1,50 @@
-.carritoDiv{
-display: flex;
-flex-direction: row;
-}
-.iconCarrito{
-    width: 80px;
-    height: 80px;
-    margin-left: 1700px;
-}
-.navBarStyle{
-    text-align: center;
+.iconCarrito {
+    width: 85px;
+    height: 85px;
     
 }
-.ItemListContainerStyle{
+
+.navBarStyle {
+    text-align: center;
+
+}
+
+.ItemListContainerStyle {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 35px;
 }
-.buttonsNavBar{
- margin: 40px;
+
+.buttonsNavBar {
+    margin: 40px;
     color: white;
     background-color: black;
     border-radius: 10px;
     border: solid black 10px;
     text-decoration: none;
 }
-.fontTitle{
+
+.fontTitle {
     font-size: 29px;
 }
-.iconTienda{
+
+.iconTienda {
     width: 80px;
     height: 60px;
-    margin-left: 20px;
+    margin: 10px
+}
+
+.iconContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.iconCartContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
 }
