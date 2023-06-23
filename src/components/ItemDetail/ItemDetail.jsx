@@ -1,4 +1,4 @@
-import {useState} from "react"
+import { useState } from "react"
 import "../ItemDetail/ItemDetail.css"
 import ItemCount from "../ItemCount/ItemCount"
 import { useCartContext } from "../context/CartContext.jsx"
@@ -6,12 +6,12 @@ import { Link } from "react-router-dom"
 
 
 const ItemDetail = ({ id, nombre, img, precio, stock }) => {
-    const[cantidadAgregada, setCantidadAgregada] = useState(0)
-    const {addProduct} = useCartContext()
-    
-    const modAgregar = (cantidad) =>{
+    const [cantidadAgregada, setCantidadAgregada] = useState(0)
+    const { addProduct } = useCartContext()
+
+    const modAgregar = (cantidad) => {
         setCantidadAgregada(cantidad)
-        addProduct({id,nombre,img,precio,stock}, cantidad)
+        addProduct({ id, nombre, img, precio, stock }, cantidad)
     }
     return (
         <article className="containerDetailItem">
@@ -31,8 +31,8 @@ const ItemDetail = ({ id, nombre, img, precio, stock }) => {
                     <p className="fontSizeTwoItem">Stock: {stock}</p>
                 </section>
                 {
-                    cantidadAgregada > 0 ?(<Link to= "/cart" >Terminar compra </Link>) :
-                <ItemCount initial={1} stock={stock} onAdd={modAgregar} />
+                    cantidadAgregada > 0 ? (<Link to="/cart" >Terminar compra </Link>) :
+                        <ItemCount initial={1} stock={stock} onAdd={modAgregar} />
                 }
             </footer>
         </article>

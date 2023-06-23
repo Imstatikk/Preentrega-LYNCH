@@ -5,13 +5,15 @@ const Cart = () => {
     const { cart, removeProduct, clearCart, sumaTotal, totalProductos } = useCartContext()
     if (totalProductos() === 0) {
         return <div>
-            no se encontraron productos
+            <div className="alert alert-danger my-5" role="alert">
+                No se encontraron productos!
+            </div>
         </div>
     }
     return <div className="cartContainer">
         <div className="productContainer">
             {cart.map(items => <div key={items.id} className="productCartContainer">
-            <button className="buttonSize" onClick={()=>{removeProduct(items.id)}}>X</button>
+                <button className="buttonSize" onClick={() => { removeProduct(items.id) }}>X</button>
                 <img src={items.img} alt="" width={150}></img>
                 <div>
                     <div>{items.nombre}</div>

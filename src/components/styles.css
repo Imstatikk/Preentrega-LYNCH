@@ -1,7 +1,7 @@
 .iconCarrito {
     width: 85px;
     height: 85px;
-    
+
 }
 
 .navBarStyle {
@@ -36,12 +36,13 @@
     margin: 10px
 }
 
-.iconContainer{
+.iconContainer {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.iconCartContainer{
+
+.iconCartContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
