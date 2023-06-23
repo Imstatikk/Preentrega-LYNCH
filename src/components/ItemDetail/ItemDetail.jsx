@@ -8,6 +8,7 @@ import { Link } from "react-router-dom"
 const ItemDetail = ({ id, nombre, img, precio, stock }) => {
     const[cantidadAgregada, setCantidadAgregada] = useState(0)
     const {addProduct} = useCartContext()
+    
     const modAgregar = (cantidad) =>{
         setCantidadAgregada(cantidad)
         addProduct({id,nombre,img,precio,stock}, cantidad)

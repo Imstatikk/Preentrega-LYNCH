@@ -1,5 +1,6 @@
 import { useCartContext } from "../context/CartContext";
 import '../Cart/cartStyles.css'
+import { Link } from "react-router-dom";
 const Cart = () => {
     const { cart, removeProduct, clearCart, sumaTotal, totalProductos } = useCartContext()
     if (totalProductos() === 0) {
@@ -9,7 +10,7 @@ const Cart = () => {
     }
     return <div className="cartContainer">
         <div className="productContainer">
-            {cart.map(items => <div key={items} className="productCartContainer">
+            {cart.map(items => <div key={items.id} className="productCartContainer">
             <button className="buttonSize" onClick={()=>{removeProduct(items.id)}}>X</button>
                 <img src={items.img} alt="" width={150}></img>
                 <div>
@@ -24,7 +25,7 @@ const Cart = () => {
             <button className="buttonCloseCart" onClick={clearCart}>X</button>
             <p className="finalPrice">Precio final:${sumaTotal()}</p>
             <p className="finalPrice">Total productos: {totalProductos()}</p>
-            <button className="payButton">PAGAR</button>
+            <Link to={"/checkout"} className="payButton">Finalizar Compra</Link>
         </div>
     </div>
 };

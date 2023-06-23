@@ -3,7 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAGzQ-RLqdDGhReAPoa3hMcrmV_XSYEkro",
+  authDomain: "tlts-tienda-lynch-43220.firebaseapp.com",
+  projectId: "tlts-tienda-lynch-43220",
+  storageBucket: "tlts-tienda-lynch-43220.appspot.com",
+  messagingSenderId: "531640527764",
+  appId: "1:531640527764:web:008e08f45276a7265cfd81"
+};
+
+// Initialize Firebase
+initializeApp(firebaseConfig);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
